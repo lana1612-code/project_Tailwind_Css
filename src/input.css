@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  font-family: Inter;
+}
+
+@layer components {
+  .wraper{
+    @apply m-auto max-w-[1280px] w-[90%];
+  }
+  .button {
+    @apply rounded-lg text-white bg-primary
+  }
+}
